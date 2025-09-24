@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+     height: 90vh; 
+    background: url(./book\ cam.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .navbar{    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #5c5b5b;
+    box-shadow: 2px 3px 4px #312d2d;
+}
+.logo{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    height: 50%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 3px 4px #d9d7d7;
+}
+.navbar a:hover{
+    box-shadow: 2px 3px 4px #000;
+}
+#one{
+    padding-right: 20px;
+}
+.bi-house ,
+.bi-question-circle, 
+.bi-gear,
+ .bi-person-lines-fill,
+.bi-info-circle{
+    color: rgb(7, 0, 0);
+    font-weight: bolder;
+    font-size: 18px;
+    padding-right: 10px;
+}
+.main{
+    text-align: center;
+    margin-top: 9%;
+    color: #f8f3f3;
+    font: bolder;
+    font-size: 50px;
+}
+.main-one{
+     color: #faf9f9;
+      text-align: center;
+      font-size: 40px;
+      margin-top: 1%;
+}
+.btn{
+    background: #262626;
+    color: #fff;
+    border-color: white;
+    border-radius: 3px;
+    height: 35px;
+    width: 12%;
+    margin-top: 4%;
+    margin-left: 35%;
+    cursor: pointer;
+}
+.btn-one{
+    background: #ebeaea;
+    color: black;
+    border: none;
+    border-color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 35px;
+    width: 12%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+ .btn:hover,
+ .btn-one:hover{
+    background: rgb(9, 207, 138);
+    color: rgb(57, 8, 34);
+
+}
